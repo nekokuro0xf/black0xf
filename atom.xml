@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>猫黑’s Blog</title>
   
   
   <link href="https://github.com/nekokuro0xf/black0xf/atom.xml" rel="self"/>
   
   <link href="https://github.com/nekokuro0xf/black0xf/"/>
-  <updated>2020-12-20T23:30:54.425Z</updated>
+  <updated>2020-12-20T23:54:39.812Z</updated>
   <id>https://github.com/nekokuro0xf/black0xf/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>Black0xf</name>
     
   </author>
   
@@ -21,11 +21,17 @@
     <link href="https://github.com/nekokuro0xf/black0xf/2020/12/21/Hexo-%E6%8C%87%E4%BB%A4/"/>
     <id>https://github.com/nekokuro0xf/black0xf/2020/12/21/Hexo-%E6%8C%87%E4%BB%A4/</id>
     <published>2020-12-20T23:30:54.000Z</published>
-    <updated>2020-12-20T23:30:54.425Z</updated>
+    <updated>2020-12-20T23:54:39.812Z</updated>
     
     
     
     
+    <category term="Hexo" scheme="https://github.com/nekokuro0xf/black0xf/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://github.com/nekokuro0xf/black0xf/tags/Hexo/"/>
+    
+    <category term="笔记" scheme="https://github.com/nekokuro0xf/black0xf/tags/%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
