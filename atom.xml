@@ -6,7 +6,7 @@
   <link href="https://github.com/nekokuro0xf/black0xf/atom.xml" rel="self"/>
   
   <link href="https://github.com/nekokuro0xf/black0xf/"/>
-  <updated>2020-12-29T04:35:43.994Z</updated>
+  <updated>2020-12-29T04:58:36.462Z</updated>
   <id>https://github.com/nekokuro0xf/black0xf/</id>
   
   <author>
@@ -21,17 +21,14 @@
     <link href="https://github.com/nekokuro0xf/black0xf/2020/12/29/markdown%E8%AF%AD%E6%B3%95/"/>
     <id>https://github.com/nekokuro0xf/black0xf/2020/12/29/markdown%E8%AF%AD%E6%B3%95/</id>
     <published>2020-12-29T04:35:43.000Z</published>
-    <updated>2020-12-29T04:35:43.994Z</updated>
+    <updated>2020-12-29T04:58:36.462Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><blockquote><ul><li><a href=""></a></li><li><a href=""></a></li></ul></blockquote>]]></content>
+    <content type="html"><![CDATA[<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs markdown"><span class="hljs-section"># 一级标题</span><br><span class="hljs-section">## 二级标题</span><br><span class="hljs-section">### 三级标题</span><br><br><br></code></pre></td></tr></table></figure><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><blockquote><ul><li><a href=""></a></li></ul></blockquote>]]></content>
     
     
       
       
-    <summary type="html">&lt;h2 id=&quot;参考资料&quot;&gt;&lt;a href=&quot;#参考资料&quot; class=&quot;headerlink&quot; title=&quot;参考资料&quot;&gt;&lt;/a&gt;参考资料&lt;/h2&gt;&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/l</summary>
+    <summary type="html">&lt;figure class=&quot;highlight markdown&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span cl</summary>
       
     
     
@@ -44,7 +41,7 @@
     <link href="https://github.com/nekokuro0xf/black0xf/2020/12/29/axios%E8%AF%B7%E6%B1%82/"/>
     <id>https://github.com/nekokuro0xf/black0xf/2020/12/29/axios%E8%AF%B7%E6%B1%82/</id>
     <published>2020-12-29T04:34:43.000Z</published>
-    <updated>2020-12-29T04:49:46.347Z</updated>
+    <updated>2020-12-29T05:29:37.538Z</updated>
     
     <content type="html"><![CDATA[<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 发送 POST 请求</span></span><br><span class="line">axios(&#123;</span><br><span class="line">  method: <span class="string">&#x27;post&#x27;</span>,</span><br><span class="line">  url: <span class="string">&#x27;http://xxxx.com/user/&#x27;</span>,</span><br><span class="line">  data: &#123;</span><br><span class="line">    username: <span class="string">&#x27;xiaohei&#x27;</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 发送 GET 请求</span></span><br><span class="line">axios(&#123;</span><br><span class="line">  method: <span class="string">&#x27;get&#x27;</span>,</span><br><span class="line">  url: <span class="string">&#x27;http://xxxx.com/userinfo&#x27;</span></span><br><span class="line">&#125;).then(<span class="function"><span class="params">response</span>=&gt;</span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(response)</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 发送请求并配置Header信息 Post,Get共通</span></span><br><span class="line">axios(&#123;</span><br><span class="line">  method: <span class="string">&#x27;post&#x27;</span>,</span><br><span class="line">  url: <span class="string">&#x27;http://xxxx.com/user/&#x27;</span>,</span><br><span class="line">  data: &#123;</span><br><span class="line">    username: <span class="string">&#x27;xiaohei&#x27;</span></span><br><span class="line">  &#125;,</span><br><span class="line">  headers: &#123;</span><br><span class="line">    <span class="string">&quot;Content-Type&quot;</span>: <span class="string">&quot;application/json&quot;</span>,</span><br><span class="line">  &#125;</span><br><span class="line">&#125;).then(<span class="function"><span class="params">response</span>=&gt;</span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(response.data)</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="comment">//请求方法别名</span></span><br><span class="line">axios.post(url,</span><br><span class="line">    data, &#123;</span><br><span class="line">    headers: &#123;</span><br><span class="line">      <span class="string">&quot;Content-Type&quot;</span>: <span class="string">&quot;application/json&quot;</span>,</span><br><span class="line">      <span class="string">&quot;Authorization&quot;</span>: <span class="string">&quot;认证token&quot;</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;)</span><br><span class="line">axios.get(url, &#123;</span><br><span class="line">    headers: &#123;</span><br><span class="line">      <span class="string">&quot;Content-Type&quot;</span>: <span class="string">&quot;application/json&quot;</span>,</span><br><span class="line">      <span class="string">&quot;Authorization&quot;</span>: <span class="string">&quot;认证token&quot;</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;)</span><br><span class="line"></span><br></pre></td></tr></table></figure><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><ul><li><a href="http://axios-js.com/zh-cn/docs/index.html#axios-API">axios中文文档|axios中文网</a></li></ul>]]></content>
     
@@ -70,9 +67,9 @@
     <link href="https://github.com/nekokuro0xf/black0xf/2020/12/21/Hexo-%E6%8C%87%E4%BB%A4/"/>
     <id>https://github.com/nekokuro0xf/black0xf/2020/12/21/Hexo-%E6%8C%87%E4%BB%A4/</id>
     <published>2020-12-20T23:30:54.000Z</published>
-    <updated>2020-12-28T01:49:20.921Z</updated>
+    <updated>2020-12-29T04:58:25.514Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="常用指令"><a href="#常用指令" class="headerlink" title="常用指令"></a>常用指令</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">启动服务器</span></span><br><span class="line">hexo server</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash">生成并部署</span></span><br><span class="line">hexo d -g</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h3 id="常用指令"><a href="#常用指令" class="headerlink" title="常用指令"></a>常用指令</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta">#</span><span class="bash">启动服务器</span><br>hexo server<br><br><span class="hljs-meta">#</span><span class="bash">生成并部署</span><br>hexo d -g<br><br><span class="hljs-meta">#</span><span class="bash">创建新文章</span><br><span class="hljs-meta">#</span><span class="bash">格式：hexo new [layout] &lt;title&gt;</span><br>hexo new hexo指令<br><br></code></pre></td></tr></table></figure>]]></content>
     
     
       
