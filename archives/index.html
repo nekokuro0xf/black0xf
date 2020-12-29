@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     
-    <title>Arsip | 猫黑’s Blog</title>
+    <title>Archive | 猫黑’s Blog</title>
     
     
         <meta name="keywords" content="猫黑’s Blog" />
@@ -92,7 +92,7 @@
             <div id="search-form-wrap">
 
     <form class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Cari" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
         <button type="submit" class="search-form-submit"></button>
     </form>
     <div class="ins-search">
@@ -111,10 +111,10 @@
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: 'pos',
+            POSTS: 'Posts',
             PAGES: 'Pages',
-            CATEGORIES: 'kategori',
-            TAGS: 'tag',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
             UNTITLED: '(Untitled)',
         },
         ROOT_URL: '/',
@@ -147,7 +147,7 @@
                 <td>
                     
     <div class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Cari" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
     </div>
 
                 </td>
@@ -164,7 +164,7 @@
         
     <div class="widget-wrap" id='categories'>
         <h3 class="widget-title">
-            <span>kategori</span>
+            <span>categories</span>
             &nbsp;
             <a id='allExpand' href="#">
                 <i class="fa fa-angle-double-down fa-2x"></i>
@@ -182,7 +182,16 @@
                         </a>
                          <ul class="unstyled" id="tree" >  <li class="file"><a href="/2020/12/21/Hexo-%E6%8C%87%E4%BB%A4/">Hexo 指令</a></li>  </ul> 
                     </li> 
-                     <li class="file"><a href="/2020/12/21/hello-world/">Hello World</a></li>  </ul> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            javascript
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2020/12/29/axios%E8%AF%B7%E6%B1%82/">axios请求</a></li>  </ul> 
+                    </li> 
+                     <li class="file"><a href="/2020/12/21/hello-world/">Hello World</a></li>  <li class="file"><a href="/2020/12/29/markdown%E8%AF%AD%E6%B3%95/">markdown语法</a></li>  </ul> 
     </div>
     <script>
         $(document).ready(function() {
@@ -252,9 +261,9 @@
     
         
     <div class="widget-wrap">
-        <h3 class="widget-title"><span>tag</span></h3>
+        <h3 class="widget-title"><span>tags</span></h3>
         <div class="widget">
-            <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%AC%94%E8%AE%B0/" rel="tag">笔记</a><span class="tag-list-count">1</span></li></ul>
+            <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/axios/" rel="tag">axios</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/javascript/" rel="tag">javascript</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%AC%94%E8%AE%B0/" rel="tag">笔记</a><span class="tag-list-count">1</span></li></ul>
         </div>
     </div>
 
@@ -271,8 +280,74 @@
     
             <div class="timeline-row timeline-row-major">
                 <span class="node"><i class="fa fa-calendar"></i></span>
-                <h1 class="title"><a href="/archives/2020/12/">2020-12</a><span class="archive-list-count">2</span></h1>
+                <h1 class="title"><a href="/archives/2020/12/">2020-12</a><span class="archive-list-count">4</span></h1>
             </div>
+    
+        <div class="timeline-row">
+            <span class="node"></span>
+            <div class="content">
+                
+    
+        <h1 itemprop="name">
+            <a class="timeline-article-title" href="/2020/12/29/markdown%E8%AF%AD%E6%B3%95/">markdown语法</a>
+        </h1>
+    
+
+                
+                <div class="article-meta">
+                    
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2020/12/29/markdown%E8%AF%AD%E6%B3%95/">
+            <time datetime="2020-12-29T04:35:43.000Z" itemprop="datePublished">2020-12-29</time>
+        </a>
+    </div>
+
+
+                    
+                    
+                </div>
+                
+            </div>
+        </div>
+    
+        <div class="timeline-row">
+            <span class="node"></span>
+            <div class="content">
+                
+    
+        <h1 itemprop="name">
+            <a class="timeline-article-title" href="/2020/12/29/axios%E8%AF%B7%E6%B1%82/">axios请求</a>
+        </h1>
+    
+
+                
+                <div class="article-meta">
+                    
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2020/12/29/axios%E8%AF%B7%E6%B1%82/">
+            <time datetime="2020-12-29T04:34:43.000Z" itemprop="datePublished">2020-12-29</time>
+        </a>
+    </div>
+
+
+                    
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/javascript/">javascript</a>
+    </div>
+
+                    
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link-link" href="/tags/axios/" rel="tag">axios</a>, <a class="tag-link-link" href="/tags/javascript/" rel="tag">javascript</a>
+    </div>
+
+                </div>
+                
+            </div>
+        </div>
     
         <div class="timeline-row">
             <span class="node"></span>
