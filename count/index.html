@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <metahttp-equiv="Content-Type"content="text/html; charset="utf-8"/>
+  <title>❤❤❤计时器</title>
+  <style>
+    .body {
+      width: 80%;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 100px;
+    }
+
+    .row {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      align-items: center;
+      margin-top: 10px;
+    }
+
+    .bar {
+      background-color: black;
+      width: 60px;
+      height: 20px;
+    }
+
+    .box {
+      width: 60px;
+      border: 1px solid black;
+      height: 20px;
+      margin-right: 20px;
+    }
+
+    .countText {
+      margin-right: 5px;
+      font-size: 25px;
+    }
+  </style>
+  <body class="body">
+    <div class="row">
+      从
+      <div id="time"></div>
+      开始
+    </div>
+    <div class="row">
+      <div class="box">
+        <div class="bar" id="second"></div>
+      </div>
+      <div class="countText" id="secondText"></div>
+      <div>秒</div>
+    </div>
+    <div class="row">
+      <div class="box">
+        <div class="bar" id="minute"></div>
+      </div>
+      <div class="countText" id="minuteText"></div>
+      <div>分</div>
+    </div>
+    <div class="row">
+      <div class="box">
+        <div class="bar" id="hour"></div>
+      </div>
+      <div class="countText" id="hourText"></div>
+      <div>小时</div>
+    </div>
+    <div class="row">
+      <div class="countText" id="day"></div>
+      <div>天</div>
+    </div>
+    <script>
+      let timeDom = document.getElementById("time");
+      let start = new Date("2021/02/14");
+
+      timeDom.innerHTML = " " + start.toLocaleDateString() + " ";
+
+      function setProgress(id, progress) {
+        let dom = document.getElementById(id);
+        dom.style.width = progress + "px";
+      }
+      function setText(id, text) {
+        let dom = document.getElementById(id);
+        dom.innerText = text;
+      }
+
+      function run() {
+        let now = new Date();
+        let diff = new Date(now.getTime() - start.getTime());
+        let s = diff.getSeconds();
+        let m = diff.getMinutes();
+        let h = diff.getHours();
+        let day = Math.floor(diff.getTime() / (60 * 60 * 24 * 1000));
+        let diffTime = diff.getTime();
+        let sText = Math.floor(diffTime / 1000);
+        let mText = Math.floor(diffTime / (1000 * 60));
+        let hText = Math.floor(diffTime / (1000 * 60 * 60));
+        setProgress("second", s);
+        setProgress("minute", m);
+        setProgress("hour", h);
+        setText("day", day);
+        setText("secondText", sText);
+        setText("minuteText", mText);
+        setText("hourText", hText);
+      }
+      run();
+      setInterval(run, 1000);
+    </script>
+  </body>
+</html>

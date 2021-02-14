@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://github.com/nekokuro0xf/black0xf/count/index.html</loc>
+    
+    <lastmod>2021-02-14</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://github.com/nekokuro0xf/black0xf/2020/12/29/markdown%E8%AF%AD%E6%B3%95/</loc>
     
     <lastmod>2020-12-29</lastmod>
@@ -53,7 +60,7 @@
 
   <url>
     <loc>https://github.com/nekokuro0xf/black0xf</loc>
-    <lastmod>2020-12-29</lastmod>
+    <lastmod>2021-02-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -61,28 +68,28 @@
   
   <url>
     <loc>https://github.com/nekokuro0xf/black0xf/tags/Hexo/</loc>
-    <lastmod>2020-12-29</lastmod>
+    <lastmod>2021-02-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://github.com/nekokuro0xf/black0xf/tags/%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2020-12-29</lastmod>
+    <lastmod>2021-02-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://github.com/nekokuro0xf/black0xf/tags/javascript/</loc>
-    <lastmod>2020-12-29</lastmod>
+    <lastmod>2021-02-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://github.com/nekokuro0xf/black0xf/tags/axios/</loc>
-    <lastmod>2020-12-29</lastmod>
+    <lastmod>2021-02-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -91,14 +98,14 @@
   
   <url>
     <loc>https://github.com/nekokuro0xf/black0xf/categories/Hexo/</loc>
-    <lastmod>2020-12-29</lastmod>
+    <lastmod>2021-02-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://github.com/nekokuro0xf/black0xf/categories/javascript/</loc>
-    <lastmod>2020-12-29</lastmod>
+    <lastmod>2021-02-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
